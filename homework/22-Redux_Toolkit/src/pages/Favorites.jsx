@@ -1,7 +1,5 @@
 import React from "react";
-
 import { useSelector, useDispatch } from "react-redux";
-
 import { removeFavorite } from "../features/favorites/favoritesSlice";
 
 const Favorites = () => {
@@ -18,7 +16,6 @@ const Favorites = () => {
 
   return (
     <div>
-
       <h1>Favorite Movies</h1>
 
       {favorites.map((movie) => (
@@ -47,7 +44,7 @@ const Favorites = () => {
       ))}
 
     </div>
-  );
-};
+  )
+}
 
 export default Favorites;
