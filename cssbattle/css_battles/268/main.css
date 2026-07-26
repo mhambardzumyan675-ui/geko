@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+width: 400px;
+height: 300px;
+background-color:#F3EAD2;
+}
+.black{
+    position:relative;
+    left: 80px;
+    top: 30px;
+    width: 160px;
+    aspect-ratio: 1/1;
+    background-color: #000000;
+}
+.blue{
+    position: absolute;
+    left:55px;
+    top: 60px;
+    width: 160px;
+    aspect-ratio: 1/1;
+    background-color: #5887E4;
+}
+.white{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 130px;
+    background-color: #F3EAD2;
+    border-bottom: 85px solid #5887E4;
+}

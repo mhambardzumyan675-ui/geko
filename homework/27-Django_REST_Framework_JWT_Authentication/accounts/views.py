@@ -60,7 +60,7 @@ def profile(request):
         serializer = ProfileSerializer(user)
         return Response(serializer.data)
     
-    elif request.method == "PUT":
+    elif request.method == "PUT": 
         if "username" in request.data:
             user.username = request.data["username"]
         if "email" in request.data:
